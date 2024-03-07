@@ -50,6 +50,14 @@ void bubbleSortArray() {                  //Prosedur untuk mengurutkan array den
     }
 }
 
+int main() {
+    input();           //Memanggil read()
+    bubbleSortArray(); //Memanggil bubbleSortArray()
+    display();         //Memanggil display()
+    return 0;
+}
+
+
 
 
 
